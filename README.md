@@ -1,1 +1,2 @@
-# dashboard
+#  start cmd
+npm start
