@@ -30,8 +30,8 @@ const Home: React.FC = () => {
                             />
                         ))}
                     </div>
-                    <div className='border border-gray-900 rounded-lg mt-4'>
-                        <div className="flex justify-between  mt-4">
+                    <div className='border border-gray-900 rounded-lg mt-4 bg-gray-950'>
+                        <div className="flex justify-between px-2 mt-4">
                             <div className="text-xl font-bold">Activity</div>
                             <div className='text-sm border border-gray-800 flex rounded-3xl px-3'>
                                 Weekly
@@ -42,13 +42,13 @@ const Home: React.FC = () => {
                         </div>
                         <BarChart />
                     </div>
-                    <div className='border border-gray-900 rounded-lg mt-4'>
+                    <div className='border border-gray-900 rounded-lg mt-4 bg-gray-950'>
                         <div className="text-xl font-bold m-2 ">Recent Orders</div>
                         <DataTable data={data} />
                     </div>
                 </div>
-                <div className="lg:w-2/6 mt-4 lg:mt-0">
-                    <div className='border border-gray-900 mx-4 rounded-lg p-2'>
+                <div className="lg:w-2/6 mt-4 lg:mt-0 ">
+                    <div className='border border-gray-900 mx-4 rounded-lg p-2 bg-gray-950'>
                         <div className='flex justify-between'>
                             <div>
                                 <p className='text-gray-300'>Net Profile</p>
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='border border-gray-900 mx-4 rounded-lg p-2 mt-2'>
+                    <div className='border border-gray-900 mx-4 rounded-lg p-2 mt-2 bg-gray-950'>
                         {staticData.map((data, index) => (
                             <IconButton
                                 key={index}
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
                         ))}
                     </div>
                     <div>
-                        <div className='border border-gray-900 mx-4 rounded-lg p-2 mt-3'>
+                        <div className='border border-gray-900 mx-4 rounded-lg p-2 mt-3 bg-gray-950'>
                             <div className="text-xl font-bold m-2 ">Customer's Feedback</div>
                             {reviews.map((review, index) => (
                                 <ReviewCard

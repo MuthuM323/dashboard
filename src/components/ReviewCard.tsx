@@ -44,7 +44,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ data }) => {
           </svg>
         ))}
       </div>
-      <p className="mb-2 pb-2 border-b border-gray-800">{reviewText}</p>
+      <p className="mb-2 pb-2 border-b border-gray-900">{reviewText}</p>
     </article>
   );
 };

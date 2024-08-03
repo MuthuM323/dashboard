@@ -24,7 +24,7 @@ const CardComponent: React.FC<CardProps> = ({
   img
 }) => {
   return (
-    <div className="p-2 bg-gray-800 border border-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="p-2 bg-gray-950 border border-gray-900 rounded-lg shadow dark:bg-gray-950 dark:border-gray-950">
       <div className={`w-11 h-11 ${bgColor} flex items-center justify-center rounded-lg`}>
         {/* <Icon className={`text-3xl ${iconColor}`} /> */}
         <img src={img} alt="" />
